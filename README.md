@@ -48,4 +48,3 @@ pip install requests tqdm
 ```bash
 python download_files_CMR_EN.py
 ```
-```
