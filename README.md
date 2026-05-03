@@ -1,6 +1,6 @@
 # NASA Earthdata CMR Downloader
 
-A lightweight and efficient Python script to bulk download satellite data (such as OCO-2 and OCO-3) from NASA's Earthdata portal using the Common Metadata Repository (CMR) API. 
+A lightweight and efficient Python script to bulk download data from NASA's Earthdata portal using the Common Metadata Repository (CMR) API. 
 
 It supports spatial and temporal filtering, automatic `.netrc` authentication configuration, and multi-threaded concurrent downloads with a progress bar.
 
@@ -22,7 +22,7 @@ pip install requests tqdm
 
 ## Setup & Authentication
 
-1. Create a text file named `earthdata_credentials.txt` somewhere on your system (e.g., in the root folder, but **do not** commit this to GitHub).
+1. Create a text file named `earthdata_credentials.txt`.
 2. Add your Earthdata username on the first line and your password on the second line:
     ```text
     your_username
